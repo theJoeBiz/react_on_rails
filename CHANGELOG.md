@@ -10,6 +10,7 @@ Changes since last non-beta release.
 
 ### [10.0.3] - 2018-1-8
 #### Fixed
+- Fixed `Utils.bundle_js_file_path` generating the incorrect path for `manifest.json` in webpacker projects: [Issue #1011](https://github.com/shakacode/react_on_rails/issues/1011) by [elstgav](https://github.com/elstgav)
 - Use redux component in generated redux Hello World example: [PR 1006](https://github.com/shakacode/react_on_rails/pull/1006) by [lewaabahmad](https://github.com/lewaabahmad).
 
 ### [10.0.2] - 2017-11-10
